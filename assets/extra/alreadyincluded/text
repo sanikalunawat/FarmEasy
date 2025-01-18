@@ -1,0 +1,404 @@
+366 line
+ <!--inshop<section class="section product">
+        <div class="container">
+
+          <p class="section-subtitle"> -- Organic Products --</p>
+
+          <h2 class="h2 section-title">All Organic Products</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn active">
+                <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+
+                <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+
+                <p class="filter-text">Fresh Vegetables</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn">
+                <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
+
+                <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
+
+                <p class="filter-text">Healthy Fruit</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn">
+                <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+
+                <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+
+                <p class="filter-text">Dairy Products</p>
+              </button>
+            </li>
+
+          </ul>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-1.png" width="189" height="189" loading="lazy" alt="Fresh Orangey">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Fresh Orangey</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-2.png" width="189" height="189" loading="lazy" alt="key Lime">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">key Lime</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-3.png" width="189" height="189" loading="lazy"
+                    alt="Fresh Watermelon">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Fresh Watermelon</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-4.png" width="189" height="189" loading="lazy" alt="Visual matches">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Visual matches</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-5.png" width="189" height="189" loading="lazy"
+                    alt="Pomagranate Fruit">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Pomagranate Fruit</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-6.png" width="189" height="189" loading="lazy" alt="Red onion">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Red onion</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-7.png" width="189" height="189" loading="lazy"
+                    alt="Lens Results Broccoli">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Lens Results Broccoli</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-8.png" width="189" height="189" loading="lazy"
+                    alt="Lens Results Spinach">
+
+                  <div class="btn-wrapper">
+                    <button class="product-btn" aria-label="Add to Whishlist">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <div class="tooltip">Add to Whishlist</div>
+                    </button>
+
+                    <button class="product-btn" aria-label="Quick View">
+                      <ion-icon name="eye-outline"></ion-icon>
+
+                      <div class="tooltip">Quick View</div>
+                    </button>
+                  </div>
+                </figure>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">
+                  <a href="#">Lens Results Spinach</a>
+                </h3>
+
+                <div class="price-wrapper">
+                  <del class="del">R.s75.00</del>
+
+                  <data class="price" value="85.00">R.s85.00</data>
+                </div>
+
+                <button class="btn btn-primary">Add to Cart</button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>-->

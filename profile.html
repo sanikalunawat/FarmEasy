@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmEazy - My Profile</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="./assets/css/profile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+<body id="top">
+    <header class="header" data-header>
+        <div class="nav-wrapper">
+          <div class="container">
+            <h1 class="h1">
+              <a href="index.html" class="logo">Farm<span class="span">Eazy</span></a>
+            </h1>
+    
+            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+    
+            <nav class="navbar" data-navbar>
+    
+              <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+    
+              <ul class="navbar-list">
+    
+                <li>
+                  <a href="./index.html" class="navbar-link">Home</a>
+                </li>
+    
+                <li>
+                  <a href="./about.html" class="navbar-link">About</a>
+                </li>
+    
+                <li>
+                  <a href="./shop.html" class="navbar-link">Shop</a>
+                </li>
+
+                <li>
+                  <a href="profile.html" class="navbar-link">Profile</a>
+                </li>
+<!--     
+                <li>
+                  <a href="./login.html" class="navbar-link">Logout</a>
+                </li> -->
+    
+              </ul>
+    
+            </nav>
+    
+            <div class="header-action">
+    
+              <div class="search-wrapper" data-search-wrapper>
+    
+                <button class="header-action-btn" aria-label="Toggle search" data-search-btn>
+                  <ion-icon name="search-outline" class="search-icon"></ion-icon>
+                  <ion-icon name="close-outline" class="close-icon"></ion-icon>
+                </button>
+    
+                <div class="input-wrapper">
+                  <input type="search" name="search" placeholder="Search here" class="search-input">
+    
+                  <button class="search-submit" aria-label="Submit search">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </button>
+                </div>
+    
+              </div>
+    
+              <button class="header-action-btn" aria-label="Open whishlist" data-panel-btn="whishlist">
+                <ion-icon name="heart-outline"></ion-icon>
+    
+               
+              </button>
+    
+              <button class="header-action-btn" aria-label="Open shopping cart" data-panel-btn="cart">
+                <ion-icon name="basket-outline"></ion-icon>
+    
+              
+              </button>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+      </header>
+    
+      <aside class="aside">
+    
+        <div class="side-panel" data-side-panel="whishlist">
+    
+          <button class="panel-close-btn" aria-label="Close whishlist" data-panel-btn="whishlist">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+    
+          <ul class="panel-list">
+    
+            
+          </ul>
+    
+          
+        </div>
+    
+        <div class="side-panel" data-side-panel="cart">
+    
+          <button class="panel-close-btn" aria-label="Close cart" data-panel-btn="cart">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+    
+          <ul class="panel-list">
+
+    
+          </ul>
+    
+          <div class="subtotal">
+            <p class="subtotal-text">Subtotal:</p>
+    
+            <data class="subtotal-value" value="215.14">Rs 00</data>
+          </div>
+    
+          <a href="./cart.html" class="panel-btn">Proceed to Pay</a>
+    
+        </div>
+    
+      </aside>
+
+  <main class="icontainer">
+      <section class="info">
+          <div class="user">
+            <div class="profile-section">
+              <div class="profile-picture" id="profile-picture">
+                  <img src="assets\images\Profilepicture.jpg" alt="Profile Picture">
+              </div>
+            </div>
+              <h2>Contact Details</h2>
+              <p>Full Name</p>
+              <h3 id="fullName"></h3> 
+              <p>Phone Number</p>
+              <h3 id="contactNo"> </h3> 
+              <p>Email Id</p>
+              <h3 id="emailId"></h3>  
+              <p>Role</p>
+              <h3 id="role"></h3> 
+              <p>Address</p>
+              <h3 id="address"></h3>  
+          </div>
+      </section>
+      <div class=".right-section ">
+          <section class="employment">
+              <div class="user">
+                  <h2>Order History</h2>
+                  <ul class="order-history">
+                    <li>Order #11 - Total: Rs 255</li>
+                    <li>Order #10 - Total: Rs 170</li>
+                    <li>Order #09 - Total: Rs 125</li>
+                    <li>Order #08 - Total: Rs 120</li>
+                    <li>Order #07 - Total: Rs 105</li>
+                    <li>Order #06 - Total: Rs 210</li>
+                    <li>Order #05 - Total: Rs 100</li>
+                    <li>Order #04 - Total: Rs 125</li>
+                    <li>Order #03 - Total: Rs 120</li>
+                    <li>Order #02 - Total: Rs 105</li>
+                    <li>Order #01 - Total: Rs 250</li>
+                    
+                  </ul>
+              </div>
+          </section>
+  
+          <section class="budget">
+              <div class="user">
+                  <h2>Account Settings</h2>
+                        <p>Email Notifications: <strong>Enabled</strong></p>
+                        <p>Two-Factor Authentication: <strong>Disabled</strong></p>
+                        <p>Language Preference: <strong>English</strong></p>
+                         <button class="logoutButton">Log Out</button>
+                    </div>
+                </section>
+                
+                 
+              </div>
+          </section>
+      </div>
+
+  </main>
+    
+      <footer class="footer">
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              &copy; 2024 <a href="#" class="copyright-link">FarmEazy</a>
+            </p>
+    
+            <ul class="footer-bottom-list">
+    
+              <li>
+                <a href="#" class="footer-bottom-link">Term and Service</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-bottom-link">Privacy Policy</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+      </footer>
+
+            
+            <a href="#top" class="back-to-top" aria-label="Back to Top" data-back-top-btn>
+            <ion-icon name="arrow-up-outline"></ion-icon>
+            </a>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script src="profile.bundle.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+      <section class="section partner">
+        <div class="container">
+
+          <p class="section-subtitle"> -- Organic Food --</p>
+
+          <h2 class="h2 section-title">Trusted Partners</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-1.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-2.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-3.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-4.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-5.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+            <li class="partner-item">
+              <figure class="partner-logo">
+                <img src="./assets/images/partner-6.png" width="132" height="134" loading="lazy" alt="Partner logo">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>

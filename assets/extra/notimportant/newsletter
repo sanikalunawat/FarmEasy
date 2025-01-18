@@ -1,0 +1,32 @@
+<section class="section newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <p class="section-subtitle"> -- Subscribe Newsletter --</p>
+
+            <h2 class="h2 section-title">Sign Up To Newsletter & Get <span class="span">20% Off.</span></h2>
+
+            <form action="" class="newsletter-form">
+
+              <input type="email" name="email" placeholder="Enter your email" required class="input-email">
+
+              <button type="submit" class="btn btn-primary">
+                <span>Sign Up</span>
+
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+

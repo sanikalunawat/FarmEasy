@@ -1,0 +1,196 @@
+
+.icontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    margin-bottom: 40px;
+    margin-right: 10%; 
+    width: 50%; 
+}
+
+
+
+/* Profile Section */
+.user {
+    background-color: #05C26A;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    flex-shrink: 0; 
+    text-align: center; 
+}
+
+/* Profile Section */
+
+.profile-section {
+    background-color: #05C26A;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 10%;
+}
+
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Profile Section */
+
+.upload-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #05C26A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: black;
+}
+
+/* Style the file input */
+#image {
+    display: none; /* Hide the default file input */
+}
+
+/* Style the label for the file input */
+label[for="image"] {
+    display: block;
+    margin-top: 10px; /* Adjust as needed */
+    cursor: pointer;
+    background-color: #05C26A;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+label[for="image"]:hover {
+    background-color: black;
+}
+
+
+.profile-section h2 {
+    font-size: 24px;
+margin-top: 0%;
+    color: #333;
+}
+
+.profile-section h3 {
+    font-size: 18px;
+    color: black;
+}
+
+.user h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    
+}
+
+.user h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+   
+}
+
+
+.right-section {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+}
+
+.employment,
+.budget {
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 24px; 
+    margin-right: 50px; 
+    margin-left:0%;
+    width:160% ;
+}
+
+.logoutButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #05C26A;;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:10px ;
+    transition: background-color 0.3s ease;
+}
+
+.logoutButton{
+    background-color: black;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .icontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        width: 100%;
+        margin-left:2% ;
+        margin-right:7% ;
+        justify-content: center;
+    }
+
+
+    .user,
+    .employment,
+    .budget{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right-section {
+        width: 100%;
+        margin-left:2% ;
+        margin-right:5% ;
+          }
+
+    .profile-picture {
+        margin-left: auto; /* Center align */
+        margin-right: auto; /* Center align */
+    }
+
+}
+ 
+
+

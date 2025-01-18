@@ -1,0 +1,77 @@
+/* Main section styling */
+main {
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+main .add-item, main .inventory-list {
+    margin-top: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+main input[type="text"], main input[type="number"], main button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+main button {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: #006400;
+}
+
+/* Table styling */
+main table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+main th, main td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+footer {
+    background-color: green;
+    color: white;
+    text-align: center; /* Correcting 'middle' to 'center' */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* height: 80px; */
+    line-height: 30px; /* Adding line-height to vertically center the text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    
+    main input[type="text"], main input[type="number"], main button {
+        width: calc(100% - 20px);
+        margin-right: 0;
+    }
+    
+    main button {
+        margin-top: 10px;
+    }
+    
+    main th, main td {
+        padding: 8px;
+    }
+}

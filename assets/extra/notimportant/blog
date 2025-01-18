@@ -1,0 +1,140 @@
+<section class="section blog">
+        <div class="container">
+
+          <p class="section-subtitle"> -- News And Blog --</p>
+
+          <h2 class="h2 section-title">Bright Side Vegetarianism</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-1.jpg" width="451" height="310" loading="lazy"
+                    alt="We automatically search for andapply coupons when." class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                    <div class="wrapper-item">
+                      <ion-icon name="calendar-clear-outline"></ion-icon>
+
+                      <time class="text" datetime="2022-04-13">13 April, 2022</time>
+                    </div>
+
+                    <div class="wrapper-item">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <span class="text">58 Million</span>
+                    </div>
+
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="./404.html">We automatically search for andapply coupons when.</a>
+                  </h3>
+
+                  <a href="./404.html" class="btn btn-primary">
+                    <span>Read More</span>
+
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" width="451" height="310" loading="lazy"
+                    alt="How to get more traffic in your website of ecommerce." class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                    <div class="wrapper-item">
+                      <ion-icon name="calendar-clear-outline"></ion-icon>
+
+                      <time class="text" datetime="2022-04-13">13 April, 2022</time>
+                    </div>
+
+                    <div class="wrapper-item">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <span class="text">58 Million</span>
+                    </div>
+
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="./404.html">How to get more traffic in your website of ecommerce.</a>
+                  </h3>
+
+                  <a href="./404.html" class="btn btn-primary">
+                    <span>Read More</span>
+
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-3.jpg" width="451" height="310" loading="lazy"
+                    alt="25 Rules and regulation to be successful in your business." class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                    <div class="wrapper-item">
+                      <ion-icon name="calendar-clear-outline"></ion-icon>
+
+                      <time class="text" datetime="2022-04-13">13 April, 2022</time>
+                    </div>
+
+                    <div class="wrapper-item">
+                      <ion-icon name="heart-outline"></ion-icon>
+
+                      <span class="text">58 Million</span>
+                    </div>
+
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="./404.html">25 Rules and regulation to be successful in your business.</a>
+                  </h3>
+
+                  <a href="./404.html" class="btn btn-primary">
+                    <span>Read More</span>
+
+                    <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
